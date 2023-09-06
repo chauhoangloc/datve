@@ -39,10 +39,12 @@ public class CurriculumVitaeRepositoryImpl implements CurriculumVitaeRepository 
     private CandidateRepository CandiRepository;
     
     @Override
-    public boolean addCV(CurriculumVitae cv) {
+    public boolean addCV(CurriculumVitae cv,int candidateID) {
         Session session = this.sessionFactory.getObject().getCurrentSession();
+        Candidate ca = this.CandiRepository.getCandidateByID(candidateID);
         try {     
             cv.setIsDeleted(0);
+            cv.setCandidateID(ca);
             session.save(cv);
 
             return true;

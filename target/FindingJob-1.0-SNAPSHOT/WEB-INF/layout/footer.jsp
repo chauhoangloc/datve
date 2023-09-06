@@ -94,8 +94,7 @@
             </div>
 
             <div class="col-md-8 ">
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3918.928761923142!2d106.67549894725765!3d10.816763693433325!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x317528e1f241211f%3A0xc9ef195798144b1f!2zVHLGsOG7nW5nIMSQ4bqhaSBo4buNYyBN4bufIFRQLkhDTSAtIEPGoSBz4bufIDM!5e0!3m2!1svi!2s!4v1681726420779!5m2!1svi!2s" width="100%" height="300" style="border:10px solid gold; border-radius: 20px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-            </div> 
+               <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3919.254109624696!2d106.66645117587635!3d10.791839558907535!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31752ed2dee69fc3%3A0x9c097849cf88f7be!2zNTI5IEh14buzbmggVsSDbiBCw6FuaCwgUGjGsOG7nW5nIDE0LCBQaMO6IE5odeG6rW4sIFRow6BuaCBwaOG7kSBI4buTIENow60gTWluaCwgVmlldG5hbQ!5e0!3m2!1sen!2s!4v1693924808003!5m2!1sen!2s" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>      </div> 
 
             <div class="col-md-12">
                 <div class="hr"></div>

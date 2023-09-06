@@ -36,12 +36,12 @@ public class CurriculumVitaeServiceImpl implements CurriculumVitaeService{
     @Autowired
     private Cloudinary cloudinary;
     @Override
-    public boolean addCV(CurriculumVitae cv) {
+    public boolean addCV(CurriculumVitae cv,int candidateID) {
        try {
             
             Map r = this.cloudinary.uploader().upload(cv.getFile().getBytes(), ObjectUtils.asMap("resource_type", "auto"));
             cv.setCvLink((String)r.get("secure_url"));    
-            return this.curriculumVitaeRepository.addCV(cv);
+            return this.curriculumVitaeRepository.addCV(cv,candidateID);
         } catch (IOException ex) {
             ex.printStackTrace();
         }

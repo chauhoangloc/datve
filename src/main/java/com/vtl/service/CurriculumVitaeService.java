@@ -15,7 +15,7 @@ import java.util.List;
  * @author Admin
  */
 public interface CurriculumVitaeService {
-    boolean addCV(CurriculumVitae cv);
+    boolean addCV(CurriculumVitae cv,int candidateID);
 //    boolean updateCV(CurriculumVitae cv);
     List<CurriculumVitae> getListCvForManage(int candidateID);
     boolean applyCV(CandidateJob cj);

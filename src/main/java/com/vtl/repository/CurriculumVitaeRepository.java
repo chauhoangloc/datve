@@ -14,7 +14,7 @@ import com.vtl.pojo.Candidate;
  * @author Admin
  */
 public interface CurriculumVitaeRepository {
-    boolean addCV(CurriculumVitae cv);
+    boolean addCV(CurriculumVitae cv,int candidateID);
 //    boolean updateCV(CurriculumVitae cv); //update CV
     List<CurriculumVitae> getListCvForManage(int candidateID);
     boolean applyCV(CandidateJob c);

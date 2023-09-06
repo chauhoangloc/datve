@@ -136,7 +136,7 @@
                                                                     </form>
                                                                 </div>
                                                                 <div id="addjob">
-                                                                    <a class="btn_addjob_manage" href ="<c:url value = "/candidate/create-cv"/>" style="margin-left: 40%;" href="">Thêm CV</a>
+                                                                    <a class="btn_addjob_manage" href ="<c:url value = "/candidate/create-cv/${candidate.id}"/>" style="margin-left: 40%;" href="">Thêm CV</a>
                                                                 </div>
                                                             </div>
 
